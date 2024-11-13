@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miguel.sanchezh\\source\\repos\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj": {}
+    "E:\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miguel.sanchezh\\source\\repos\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj": {
+    "E:\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.sanchezh\\source\\repos\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj",
+        "projectUniqueName": "E:\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj",
         "projectName": "ProyectoPatronesDiseño",
-        "projectPath": "C:\\Users\\miguel.sanchezh\\source\\repos\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj",
+        "projectPath": "E:\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño.csproj",
         "packagesPath": "C:\\Users\\miguel.sanchezh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.sanchezh\\source\\repos\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\obj\\",
+        "outputPath": "E:\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\ProyectoPatronesDiseño\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
