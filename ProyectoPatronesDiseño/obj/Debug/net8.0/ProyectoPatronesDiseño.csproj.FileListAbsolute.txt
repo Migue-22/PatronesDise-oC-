@@ -1,0 +1,14 @@
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.exe
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.deps.json
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.runtimeconfig.json
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.dll
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.pdb
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.AssemblyInfoInputs.cache
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.AssemblyInfo.cs
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.csproj.CoreCompileInputs.cache
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.dll
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\refint\ProyectoPatronesDiseño.dll
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.pdb
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.genruntimeconfig.cache
+C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ref\ProyectoPatronesDiseño.dll
