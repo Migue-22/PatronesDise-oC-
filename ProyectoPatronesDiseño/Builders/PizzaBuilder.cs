@@ -7,6 +7,7 @@ namespace ProyectoPatronesDiseño.Builders;
 public class PizzaBuilder : IFoodBuilder
 {
     private readonly IFood _pizza = new Pizza();
+    
     public IFood Build()
     {
         return _pizza;
@@ -29,4 +30,16 @@ public class PizzaBuilder : IFoodBuilder
     {
         return _pizza.Ingredients;
     }
+    public T GetMeal<T>() where T : IFood
+    {
+        if (_pizza is T pizza)
+        {
+            return pizza;
+        }
+        else
+        {
+            throw new InvalidCastException($"El objeto no se puede convertir al tipo {typeof(T)}.");
+        }
+    }
+    
 }

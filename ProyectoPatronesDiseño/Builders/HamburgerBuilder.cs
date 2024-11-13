@@ -10,6 +10,7 @@ public class HamburgerBuilder : IFoodBuilder
 {
     private readonly IRepository<Hamburger> _hamburgerRepository = new HamburgerRepository();
     private readonly IFood _hamburger = new Hamburger();
+    
     public IFood Build()
     {
         return _hamburger;
@@ -29,5 +30,4 @@ public class HamburgerBuilder : IFoodBuilder
         return _hamburgerRepository.GetIngredientsList();
     }
 
-    
 }

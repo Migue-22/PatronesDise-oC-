@@ -9,7 +9,7 @@ namespace ProyectoPatronesDiseño.Builders;
 internal class WingsBuilder : IFoodBuilder
 {
     private readonly IRepository<Wings> _wingsRepository = new WingsRepository();   
-    private readonly IFood _wings = new Wings();   
+    private readonly IFood _wings = new Wings();
     public void AddIngredient(string ingredient)
     {
         _wingsRepository.AddIngredient(ingredient);
@@ -29,4 +29,5 @@ internal class WingsBuilder : IFoodBuilder
     {
         _wingsRepository.ShowIngredients();
     }
+    
 }
