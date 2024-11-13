@@ -2,14 +2,15 @@
 using ProyectoPatronesDiseño.Builders.Interfaces;
 using ProyectoPatronesDiseño.Enums;
 using ProyectoPatronesDiseño.Factorys;
+using ProyectoPatronesDiseño.Models.Interface;
 using ProyectoPatronesDiseño.Services.Interfaces;
 
 namespace ProyectoPatronesDiseño.Services;
 
 public class MenuService : IMenuService
 {
-    MealFactory mealFactory = new MealFactory();
-
+    MealFactory mealFactory = new();
+    
     public void MainMenu()
     {
         
@@ -17,10 +18,13 @@ public class MenuService : IMenuService
         int Opcion = 0;
         IFoodBuilder foodBuilder;
         IEnumerable<string> ingredients = [];
+        IEnumerable<IFood> order = [];
+        
         do
         {
             Console.WriteLine("Selecciona una opcion del menu: ");
-            Console.WriteLine("1.Crear una Pizza\n2.Crear una Hamburguesa\n3.Crear HotDog\n4.Crear Alitas\n5.Mostrar Orden Creada\n6.Salir");
+            Console.WriteLine("1.Crear una Pizza\n2.Crear una Hamburguesa\n3.Crear HotDog\n4.Crear Alitas\n5.Mostrar Orden Creada");
+            Console.WriteLine("6.Ver Carrito\n7.Salir");
             OpcionInput = Console.ReadLine();
             
             int.TryParse(OpcionInput, out Opcion);
@@ -54,13 +58,19 @@ public class MenuService : IMenuService
                     }
                     ShowIngredients(ingredients);
                     break;
+                case 6:
+                    var typeFood = foodBuilder.GetMeal<IFood>();
+                    PurchaseBuilder purchaseBuilder = new(typeFood);
+                    order = purchaseBuilder.GetOrder();
+                    ViewOrder(order);
+                    break;
                 default:
                     Console.WriteLine("Selecciona una opcion correcta");
                     break;
             }
             
 
-        } while (Opcion != 6);
+        } while (Opcion != 7);
     }
     private void ShowIngredients(IEnumerable<string> ingredients)
     {
@@ -113,7 +123,6 @@ public class MenuService : IMenuService
         {
             foodBuilder.AddIngredient(dressing);
         }
-
         Console.WriteLine("Resumen de orden:");
         foodBuilder.ShowIngredients();
     }
@@ -161,7 +170,6 @@ public class MenuService : IMenuService
         {
             foodBuilder.AddIngredient(dressing);
         }
-
         Console.WriteLine("Resumen de orden:");
         foodBuilder.ShowIngredients();
     }
@@ -209,7 +217,6 @@ public class MenuService : IMenuService
         {
             foodBuilder.AddIngredient(dressing);
         }
-
         Console.WriteLine("Resumen de orden:");
         foodBuilder.ShowIngredients();
     }
@@ -240,8 +247,19 @@ public class MenuService : IMenuService
         {
             foodBuilder.AddIngredient(dressing);
         }
-
         Console.WriteLine("Resumen de orden:");
         foodBuilder.ShowIngredients();
+    }
+
+    public void ViewOrder(IEnumerable<IFood> order)
+    {
+        foreach (var orders in order)
+        {
+            Console.WriteLine($"Los productos seleccionados son:\n{orders}");
+            foreach (var ingredients in orders.Ingredients)
+            {
+                Console.WriteLine($"Los ingredientes de tu pedido son {ingredients}");
+            }
+        }
     }
 }
