@@ -12,3 +12,17 @@ C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDi
 C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.pdb
 C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.genruntimeconfig.cache
 C:\Users\miguel.sanchezh\source\repos\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ref\ProyectoPatronesDiseño.dll
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.exe
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.deps.json
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.runtimeconfig.json
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.dll
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\bin\Debug\net8.0\ProyectoPatronesDiseño.pdb
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.AssemblyInfoInputs.cache
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.AssemblyInfo.cs
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.csproj.CoreCompileInputs.cache
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.dll
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\refint\ProyectoPatronesDiseño.dll
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.pdb
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ProyectoPatronesDiseño.genruntimeconfig.cache
+E:\ProyectoPatronesDiseño\ProyectoPatronesDiseño\ProyectoPatronesDiseño\obj\Debug\net8.0\ref\ProyectoPatronesDiseño.dll
