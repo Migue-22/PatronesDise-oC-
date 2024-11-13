@@ -8,4 +8,5 @@ public interface IFoodBuilder
     void AddIngredient(string ingredient);
     IEnumerable<string> GetIngredients();
     void ShowIngredients();
+    T GetMeal<T>() where T : IFood;
 }
